@@ -1,0 +1,22 @@
+@import 'normalize.css/normalize.css';
+@import 'leaflet/dist/leaflet.css';
+@import 'leaflet-gesture-handling/dist/leaflet-gesture-handling.css';
+
+@import 'modules/basic';
+@import 'modules/map';
+@import 'modules/chart';
+@import 'modules/marker';
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  #temperature-info {
+    display: flex;
+    flex-direction: row;
+    div {
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+  }
+}

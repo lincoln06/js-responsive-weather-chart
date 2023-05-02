@@ -1,0 +1,7 @@
+//W zamieszczonym z linka pliku CSS Leafleta jest błędna ścieżka do ikony markera
+//Trzeba ją nadpisać
+//Problem opisany tutaj:
+//https://forum.ionicframework.com/t/marker-png-404-not-found-when-using-leaflet-in-ionic-app/185529
+.leaflet-default-icon-path {
+  background-image: url(https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png);
+}
